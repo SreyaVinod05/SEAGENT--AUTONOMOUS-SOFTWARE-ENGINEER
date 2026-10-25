@@ -1,0 +1,49 @@
+﻿# --- Secrets & Environment ---
+.env
+.env.local
+.env.*.local
+
+# --- Python ---
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+build/
+.eggs/
+*.spec
+
+# --- Testing & Coverage ---
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# --- Runtime / Generated Data ---
+data/
+temp_execution/
+*.log
+*.tmp
+
+# --- Frontend Build Artifacts ---
+frontend/node_modules/
+frontend/dist/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
